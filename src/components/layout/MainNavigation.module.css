@@ -1,0 +1,39 @@
+.nav {
+  height: 100px;
+  background-color: rgb(75, 0, 145);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15%;
+}
+
+.logo {
+  color: white;
+  font-weight: 600;
+  font-size: 2em;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.navBtnContainer {
+  margin: 0;
+  height: 100%;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.navBtn {
+  font-weight: 600;
+  font-size: 1.2rem;
+  padding-bottom: 5px;
+  color: white;
+  text-decoration: none;
+}
+
+.navBtnActive,
+.navBtn:hover {
+  border-bottom: white solid 3px;
+}

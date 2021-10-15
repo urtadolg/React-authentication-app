@@ -1,0 +1,19 @@
+.loading {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: rgb(75, 0, 145) solid 10px;
+  border-color: rgb(75, 0, 145) transparent rgb(75, 0, 145) transparent;
+  margin: 50vh auto;
+  animation: spin linear 1.2s infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

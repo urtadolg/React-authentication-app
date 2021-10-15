@@ -1,0 +1,10 @@
+.title {
+  font-weight: 700;
+  font-size: 4rem;
+}
+
+.profilePageContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
